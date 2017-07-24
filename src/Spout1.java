@@ -14,7 +14,9 @@ import org.apache.storm.tuple.Values;
 
 public class Spout1 implements IRichSpout {
 	SpoutOutputCollector collector;
+	
 	public static final String CAMINHO_TXT = "<<Caminho para o txt do Taxi 1>>";
+
 	BufferedReader br;
 	SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
@@ -63,31 +65,26 @@ public class Spout1 implements IRichSpout {
 	@Override
 	public void ack(Object arg0) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void activate() {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void close() {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void deactivate() {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
 	public void fail(Object arg0) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
